@@ -1,6 +1,5 @@
 # miniShellOS
-
-This is a Small Unix shell written in C, with a built-in AI helper you can ask questions without leaving the terminal.
+This is a small Unix shell project written in C, with a built-in AI helper you can ask questions without leaving the terminal.
 
 We built it to learn how a shell works under the hood: parsing input, creating processes with `fork()` and `execvp()`, and wiring up pipes and redirection. On top of that, there's an `ai` command that sends your question to a language model running locally through GPT4All.
 
